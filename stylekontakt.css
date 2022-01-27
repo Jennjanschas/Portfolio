@@ -1,0 +1,55 @@
+* {
+    background-color: #e9e9e9;
+    color: #525151;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid #525151 2px;
+    padding: 10px;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 25px 27px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  
+
+
+
+
+
+
+
+
+  
+@media screen and (max-width: 992px) {
+    .topnav {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 0px;
+    }
+    .topnav a {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      font-size: 25px;
+    }
+
+
+}
