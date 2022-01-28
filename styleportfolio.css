@@ -67,7 +67,7 @@
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 850px) {
   .topnav {
     display: flex;
     flex-direction: column;
@@ -109,7 +109,7 @@
   }
 }
 
-@media screen and (max-width: 648px) {
+@media screen and (max-width: 600px) {
   .topnav {
     flex-direction: column;
     width: 100%;

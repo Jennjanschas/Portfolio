@@ -114,7 +114,7 @@ ul li {
   margin: 1em;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 850px) {
   .topnav {
     flex-direction: column;
     width: 100%;
@@ -161,7 +161,7 @@ ul li {
   }
 }
 
-@media screen and (max-width: 648px) {
+@media screen and (max-width: 600px) {
   .topnav {
     flex-direction: column;
     width: 100%;
