@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,90 +9,91 @@
     <link rel="stylesheet" href="stylekontakt.css" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet" />
+</head>
 
-  <body>
+<body>
     <!--meny systemet som ska ligga som en toppmeny på sidan-->
     <div class="topnav">
-      <a class="active" href="index.html">Start.</a>
-      <a href="portfolio.html">Portfolio.</a>
-      <a href="ommig.html">Mer om mig.</a>
-      <a href="cv.html">CV.</a>
-      <a href="kontakt.html">Kontakta mig.</a>
+        <a class="active" href="index.html">Start.</a>
+        <a href="portfolio.html">Portfolio.</a>
+        <a href="ommig.html">Mer om mig.</a>
+        <a href="cv.html">CV.</a>
+        <a href="kontakt.html">Kontakta mig.</a>
     </div>
     <br />
-
+    <!-- Jag har följt en youtube video med länk " https://www.youtube.com/watch?v=rpujWVkmiPE " för att skapa dett kontakformulär
+    som också innefattar lite javascript -->
     <div class="container">
-      <div class="form">
-        <div class="contact-info">
-          <h3 class="title">Kontakt uppgifter</h3>
-          <p class="text">Hör gärna av dej om du har frågor eller feedback!</p>
-          <div class="info">
-            <div class="information">
+        <div class="form">
+            <div class="contact-info">
+                <h3 class="title">Kontakt uppgifter</h3>
+                <p class="text">Hör gärna av dej om du har frågor eller feedback!</p>
+                <div class="info">
+
+                    <!-- Kommenterar ut denna sektion då jag inte tycker att det är så relevant med min adress
+                <div class="information">
               <img src="img/adress.png" class="icon" alt="Adress" />
               <p>Täby, Stockholm</p>
-            </div>
+            </div>-->
 
-            <div class="information">
-              <img src="img/email.png" class="icon" alt="Email adress" />
-              <p>jennifer.jansson5@hotmail.com</p>
-            </div>
+                    <div class="information">
+                        <img src="img/email.png" class="icon" alt="Email adress" />
+                        <p>jennifer.jansson5@hotmail.com</p>
+                    </div>
 
-            <div class="information">
-              <img src="img/telefon.png" class="icon" alt="Telefonnummer" />
-              <p>073-824 29 88</p>
-            </div>
-          </div>
+                    <div class="information">
+                        <img src="img/telefon.png" class="icon" alt="Telefonnummer" />
+                        <p>073-824 29 88</p>
+                    </div>
+                </div>
 
-          <div class="social-media">
-            <p>Välkommna till min LinkedIn</p>
-            <div class="social-icons">
-              <a href="https://www.linkedin.com/in/jennifer-jansson-1217a9221/">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
+                <div class="social-media">
+                    <p>Välkommna till min LinkedIn</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/jennifer-jansson-1217a9221/">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
+            <!-- Den delen av fomruläret som har kontaktformulär funktion-->
+            <div class="contact-form">
+                <span class="circle one"></span>
+                <span class="circle two"></span>
+
+                <form action="kontakt.html" autocomplete="off">
+                    <h3 class="title">Du kan också höra av dej här</h3>
+
+                    <div class="input-container">
+                        <input type="text" name="name" class="input" />
+                        <label for="">Ditt namn</label>
+                        <span>Ditt namn</span>
+                    </div>
+
+                    <div class="input-container">
+                        <input type="email" name="email" class="input" />
+                        <label for="">Email</label>
+                        <span>Email</span>
+                    </div>
+
+                    <div class="input-container">
+                        <input type="tel" name="phone" class="input" />
+                        <label for="">Telefonnummer</label>
+                        <span>Telefonnummer</span>
+                    </div>
+
+                    <div class="input-container textarea">
+                        <textarea name="message" class="input"></textarea>
+                        <label for="">Meddelande</label>
+                        <span>Meddelande</span>
+                    </div>
+                    <input type="submit" value="Send" class="btn" />
+                </form>
+            </div>
         </div>
-
-        <div class="contact-form">
-          <span class="circle one"></span>
-          <span class="circle two"></span>
-
-          <form action="kontakt.html" autocomplete="off">
-            <h3 class="title">Du kan också höra av dej här</h3>
-
-            <div class="input-container">
-              <input type="text" name="name" class="input" />
-              <label for="">Ditt namn</label>
-              <span>Ditt namn</span>
-            </div>
-
-            <div class="input-container">
-              <input type="email" name="email" class="input" />
-              <label for="">Email</label>
-              <span>Email</span>
-            </div>
-
-            <div class="input-container">
-              <input type="tel" name="phone" class="input" />
-              <label for="">Telefonnummer</label>
-              <span>Telefonnummer</span>
-            </div>
-
-            <div class="input-container textarea">
-              <textarea name="message" class="input"></textarea>
-              <label for="">Meddelande</label>
-              <span>Meddelande</span>
-            </div>
-            <input type="submit" value="Send" class="btn" />
-          </form>
-        </div>
-      </div>
     </div>
     <script src="kontaktscript.js"></script>
-  </body>
+</body>
+
 </html>
