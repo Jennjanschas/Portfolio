@@ -50,7 +50,7 @@
   .flexcv img {
     display: flex;
     justify-content: center;
-    height: 100%;
+    width: 80%;
   }
 }
 
@@ -68,6 +68,6 @@
   .flexcv img {
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 80%;
   }
 }

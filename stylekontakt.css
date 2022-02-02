@@ -246,23 +246,33 @@ textarea.input {
 
 .icon {
     margin-right: 0.7rem;
-}
+   }
+
 
 .social-media {
     padding: 2rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    
+    
 }
 
 .social-icons {
     display: flex;
-    margin-top: 0.5rem;
+    justify-content: center;
+    padding-left: 5px;
+    font-size: 25px;
+
+   
 }
 
 .social-icons a {
-    width: 35px;
-    height: 35px;
+     width: 40px;
+    height: 40px;
+    line-height: 35px;
     border-radius: 5px;
-    background: linear-gradient(45deg, #838383);
-    color: #525151;
+    background: linear-gradient(45deg,#525151, #525151);
+    color: #fff;
     text-align: center;
     line-height: 35px;
     margin-right: 0.5rem;

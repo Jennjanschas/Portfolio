@@ -27,16 +27,18 @@
   color: black;
 }
 
-header {
+header h1 {
   font-size: 50px;
   font-family: "Libre Baskerville", serif;
   margin-left: 150px;
+  margin-bottom: 1px ;
 }
 
 .flex {
   display: flex;
   margin-left: 150px;
   margin-right: 150px;
+  
 }
 
 .flex1 {
@@ -126,7 +128,7 @@ ul li {
     font-size: 25px;
   }
 
-  header {
+  header h1 {
     font-size: 40px;
   }
 
@@ -137,7 +139,7 @@ ul li {
   }
 
   .flex2-profimg {
-    width: 70%;
+    width: 100%;
   }
 
   .flex-post-it {
@@ -171,7 +173,7 @@ ul li {
     font-size: 20px;
   }
 
-  header {
+  header h1{
     font-size: 30px;
   }
 
@@ -181,7 +183,7 @@ ul li {
     margin: 0px;
   }
   .flex2-profimg {
-    width: 70%;
+    width: 100%;
   }
 
   .flex-post-it {

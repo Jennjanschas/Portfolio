@@ -8,44 +8,58 @@
   <title>Jennifer Janssons Portfolio</title>
   <link rel="stylesheet" href="style.css">
 
-  
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
-  
+
+  <!-- Jag har valt WCAGS krav 1.1.1(beskriv med text allt innehåll som inte är text.) Har lagt till "alt" text till alla bilder och knapp.
+    Samt krav 1.4.3 (Använd tillräcklig kontrast mellan text och bakgrund) Har använt kontrast check plug-in i Figma på min mockup
+     för att försäkra mig om att kontrasterna uppfyller minst AA nivå.-->
+
 </head>
 
 <body>
 
   <!--meny systemet som ska ligga som en toppmeny på sidan-->
-  <div class="topnav">
-    <a class="active" href="index.html">Start.</a>
-    <a href="portfolio.html">Portfolio.</a>
-    <a href="ommig.html">Mer om mig.</a>
-    <a href="cv.html">CV.</a>
-    <a href="kontakt.html">Kontakta mig.</a>
-  </div>
-  <br />
-  <!--Rubriken som ska ha en annan font än den mer beskrivande brödtexten-->
-  <header>Hej, jag heter Jennifer</header> <br />
-
-  <div class="flex">
-
-    <!--Kort intro som ska ligga under rubriken -->
-    <div class="flex1">
-      <h3>Jag är en UX-design med kravkompetens student på Chas Academy i Stockholm.
-        Jag tar examen våren 2023.
-        Förutom att jag älskar att ta reda på hur och varför vi människor gör som vi gör, brinner jag
-        lite
-        extra för tillgänglighet.
+  <nav>
+    <div class="topnav">
+      <a class="active" href="index.html">Start.</a>
+      <a href="portfolio.html">Portfolio.</a>
+      <a href="ommig.html">Mer om mig.</a>
+      <a href="cv.html">CV.</a>
+      <a href="kontakt.html">Kontakta mig.</a>
     </div>
+  </nav>
+  <br />
 
-    </h3>
+  <section>
+    <!--Rubriken som ska ha en annan font än den mer beskrivande brödtexten-->
+    <header>
+      <h1>Hej, jag heter Jennifer
+    </header>
+    </h1> <br />
 
-    <!--En bild på mig som ska vara rund ändrade storleken först till kvadrat för att det skulle bli lättare att ändra till rund-->
-    <div class="flex2">
-      <img class="flex2-profimg" src="img/profimg.img.jpg"></div>
-  </div>
+    <div class="flex">
+
+      <!--Kort intro som ska ligga under rubriken -->
+      <div class="flex1">
+        <h3>Jag är en UX-design med kravkompetens student på Chas Academy i Stockholm.
+          Jag tar examen våren 2023.
+          Förutom att jag älskar att ta reda på hur och varför vi människor gör som vi gör, brinner jag
+          lite
+          extra för tillgänglighet.
+        </h3>
+      </div>
+
+
+
+      <!--En bild på mig som ska vara rund ändrade storleken först till kvadrat för att det skulle bli lättare att ändra till rund-->
+      <div class="flex2">
+        <img class="flex2-profimg" src="img/profimg.img.jpg" alt="Jennifer Jansson"></div>
+    </div>
+  </section>
+
 
 
   <!--tre post-it lappar som en ul-list stylas i CSS så att de ser ut som post it's med saker jag gillar-->
@@ -72,9 +86,6 @@
       </li>
     </ul>
   </div>
-  
-
-
 </body>
 
 </html>
